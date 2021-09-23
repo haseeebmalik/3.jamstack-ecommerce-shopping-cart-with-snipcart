@@ -4,7 +4,12 @@ import * as React from "react";
 const IndexPage = () => {
   return (
     <main>
-      Hello World
+      hello world
+      <div style={{margin:"20px",padding:"20px"}}>
+      <button class="snipcart-checkout">click here to checkout</button>
+      <span class="snipcart-items-count"></span>
+      <span class="snipcart-total-price"></span>
+      </div>
       <button
         class="snipcart-add-item"
         data-item-id="starry-night"
